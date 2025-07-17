@@ -61,7 +61,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Chatbot Builder Theme
+				'canvas-bg': 'hsl(var(--canvas-bg))',
+				'panel-bg': 'hsl(var(--panel-bg))',
+				'panel-border': 'hsl(var(--panel-border))',
+				'node-bg': 'hsl(var(--node-bg))',
+				'node-border': 'hsl(var(--node-border))',
+				'node-selected': 'hsl(var(--node-selected))',
+				'handle-bg': 'hsl(var(--handle-bg))',
+				'sidebar-bg': 'hsl(var(--sidebar-bg))',
+				'toolbar-bg': 'hsl(var(--toolbar-bg))',
+				success: 'hsl(var(--success))',
+				warning: 'hsl(var(--warning))',
+				error: 'hsl(var(--error))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
